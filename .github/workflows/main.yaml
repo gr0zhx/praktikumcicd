@@ -20,4 +20,4 @@ jobs:
           tools: phpcs
 
       - name: Run phpcs
-        run: phpcs --report-diff .
+        run: phpcs --report-summary --report-diff .
